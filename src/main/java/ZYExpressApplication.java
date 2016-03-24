@@ -17,7 +17,7 @@ public class ZYExpressApplication extends Application<ZYExpressConfiguration> {
     @Override
     public void initialize(Bootstrap<ZYExpressConfiguration> bootstrap) {
         bootstrap.addBundle(new MultiPartBundle());
-        bootstrap.addBundle(new AssetsBundle("/assets/", "/"));
+        bootstrap.addBundle(new AssetsBundle("/assets/", "/","index.html"));
     }
 
     @Override
